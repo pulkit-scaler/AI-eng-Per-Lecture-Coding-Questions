@@ -1,0 +1,11 @@
+# Keep the build context to what the image actually needs.
+.env
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+local_index/
+dist/
+.git/
+.DS_Store

@@ -1,0 +1,24 @@
+# YOU WRITE THIS FILE.
+#
+# Two agents, keyed exactly as below. Each one needs role, goal and backstory.
+# Placeholders in braces are filled in from the order at run time - {order},
+# {customer}, {cloth}, {metres}, {wanted} are all available.
+#
+# stock_analyst      reads the database and reports what is held
+# production_planner writes the note from what the analyst found
+
+stock_analyst:
+  role: >
+    TODO
+  goal: >
+    TODO
+  backstory: >
+    TODO
+
+production_planner:
+  role: >
+    TODO
+  goal: >
+    TODO
+  backstory: >
+    TODO

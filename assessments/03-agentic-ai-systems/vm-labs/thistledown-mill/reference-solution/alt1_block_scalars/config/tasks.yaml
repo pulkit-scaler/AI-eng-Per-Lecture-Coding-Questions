@@ -1,0 +1,15 @@
+stock_check:
+  description: |
+    Order {order} from {customer}: {metres} metres of {cloth} wanted by
+    {wanted}. Establish which yarn the cloth is specified in and what is held
+    of it. Read the database; do not estimate.
+  expected_output: |
+    The yarn code, the stock row, and a one line verdict on {metres} metres.
+
+production_note:
+  description: |
+    Write the shed note for order {order} from {customer}: {metres} metres of
+    {cloth} by {wanted}. Work only from what the analyst established.
+  expected_output: |
+    A short note naming {order}, the yarn, the figures you were handed, and
+    whether the order can be met.

@@ -1,0 +1,17 @@
+stock_check:
+  description: >
+    Order {order} from {customer} is for {metres} metres of {cloth}, wanted by
+    {wanted}. Find which yarn that cloth is specified in and what the mill
+    holds of it. Use the database; do not estimate.
+  expected_output: >
+    The yarn code for {cloth}, the stock row you read for it, and a one line
+    verdict on whether {metres} metres can be cut.
+
+production_note:
+  description: >
+    Write the planning note for order {order} from {customer}: {metres} metres
+    of {cloth} wanted by {wanted}. Use the stock analyst findings and nothing
+    else.
+  expected_output: >
+    A short note naming order {order}, the yarn, the stock figures you were
+    given, and whether the order can be met.

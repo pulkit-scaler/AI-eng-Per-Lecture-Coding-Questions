@@ -1,0 +1,8 @@
+# Pinned. "It worked last month" is not a deployment strategy.
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.4
+pandas==2.2.3
+httpx==0.28.1
+# Built from source in this repository - the depot fingerprint routine.
+./vendor/depot_hash

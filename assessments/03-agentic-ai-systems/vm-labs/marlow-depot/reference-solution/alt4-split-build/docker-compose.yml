@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  llm:
+    image: ai-lab/depot-llm:1.0
+    ports:
+      - "9000:9000"
+
+  indexer:
+    build:
+      context: ./depot-api
+    image: marlow-depot/depot-api:latest
+    entrypoint: ["python"]
+    command: ["indexer.py"]
+    environment:
+      - DEPOT_INDEX_DIR=/index
+    volumes:
+      - depot-index:/index
+
+  depot-api:
+    build:
+      context: ./depot-api
+    image: marlow-depot/depot-api:latest
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+    env_file: ["./depot-api/.env"]
+    environment:
+      - DEPOT_INDEX_DIR=/index
+      - DEPOT_LLM_URL=http://llm:9000/v1
+    ports:
+      - "8000:8000"
+    volumes:
+      - depot-index:/index
+    depends_on:
+      llm:
+        condition: service_started
+      indexer:
+        condition: service_completed_successfully
+
+volumes:
+  depot-index: {}

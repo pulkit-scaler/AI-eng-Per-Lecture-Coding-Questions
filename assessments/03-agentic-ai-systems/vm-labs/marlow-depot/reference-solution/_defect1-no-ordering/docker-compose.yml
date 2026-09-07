@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  # The adviser backend. Published on loopback only so it can be inspected from
+  # this machine without being reachable from anywhere else.
+  llm:
+    image: ai-lab/depot-llm:1.0
+    ports:
+      - "127.0.0.1:9000:9000"
+
+  # One-shot index build. Same image as the API, different command.
+  indexer:
+    image: marlow-depot/depot-api:latest
+    build: ./depot-api
+    command: ["python", "indexer.py"]
+    environment:
+      DEPOT_INDEX_DIR: /index
+    volumes:
+      - depot-index:/index
+    restart: "no"
+
+  depot-api:
+    image: marlow-depot/depot-api:latest
+    build: ./depot-api
+    # The credential is read at run time. It is never a build argument and
+    # never an ENV line in the Dockerfile.
+    env_file:
+      - ./depot-api/.env
+    environment:
+      DEPOT_INDEX_DIR: /index
+      DEPOT_LLM_URL: http://llm:9000/v1
+    ports:
+      - "8000:8000"
+    volumes:
+      - depot-index:/index
+    depends_on:
+      - llm
+
+volumes:
+  depot-index:

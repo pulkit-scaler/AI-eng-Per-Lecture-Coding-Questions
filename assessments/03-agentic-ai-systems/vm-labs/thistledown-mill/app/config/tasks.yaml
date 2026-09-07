@@ -1,0 +1,20 @@
+# YOU WRITE THIS FILE.
+#
+# Two tasks, keyed exactly as below. Each one needs description and
+# expected_output. The same placeholders are available here - {order},
+# {customer}, {cloth}, {metres}, {wanted}.
+#
+# stock_check      what the analyst is asked to establish
+# production_note  what the planner is asked to write
+
+stock_check:
+  description: >
+    TODO
+  expected_output: >
+    TODO
+
+production_note:
+  description: >
+    TODO
+  expected_output: >
+    TODO

@@ -1,0 +1,70 @@
+{
+  "desk": "Orenford Dispatch",
+  "assignments": [
+    {
+      "assignment": "OR-4102",
+      "commissioned": "2026-03-02",
+      "brief": "The county is closing two of its five household waste sites. Who decided, on what evidence, and what happens to the tonnage."
+    },
+    {
+      "assignment": "OR-4117",
+      "commissioned": "2026-03-04",
+      "brief": "A retail park car park has been charging for parking since January without the required signage. How much has been taken and who is liable."
+    },
+    {
+      "assignment": "OR-4133",
+      "commissioned": "2026-03-06",
+      "brief": "The new footbridge over the Oren has been closed for repairs twice in six months. What is actually wrong with it."
+    },
+    {
+      "assignment": "OR-4148",
+      "commissioned": "2026-03-09",
+      "brief": "Ambulance handover delays at the county hospital doubled over winter. Establish the figures and what the trust is doing."
+    },
+    {
+      "assignment": "OR-4155",
+      "commissioned": "2026-03-11",
+      "brief": "A dormant quarry has applied to reopen as an inert waste tip. Trace the ownership and the objections."
+    },
+    {
+      "assignment": "OR-4162",
+      "commissioned": "2026-03-13",
+      "brief": "Three primary schools have merged catchments without consultation. Find the decision trail and the effect on admissions."
+    },
+    {
+      "assignment": "OR-4171",
+      "commissioned": "2026-03-16",
+      "brief": "The market hall refurbishment is eighteen months late. Establish the contract history and the cost to date."
+    },
+    {
+      "assignment": "OR-4184",
+      "commissioned": "2026-03-18",
+      "brief": "A river monitoring station has reported no data since October. Who is responsible for it and what has been missed."
+    },
+    {
+      "assignment": "OR-4190",
+      "commissioned": "2026-03-20",
+      "brief": "Two bus routes serving the north of the county were withdrawn at short notice. Establish the subsidy history."
+    },
+    {
+      "assignment": "OR-4199",
+      "commissioned": "2026-03-23",
+      "brief": "A council-owned leisure centre has been shut for safety work since August. Establish the survey findings."
+    },
+    {
+      "assignment": "OR-4210",
+      "commissioned": "2026-03-25",
+      "brief": "A rural bus shelter programme was announced twice with the same funding. Establish what was actually built."
+    },
+    {
+      "assignment": "OR-4224",
+      "commissioned": "2026-03-27",
+      "brief": "A closed swimming pool is still drawing a maintenance charge. Establish who authorises the payments."
+    },
+    {
+      "assignment": "OR-4238",
+      "commissioned": "2026-03-30",
+      "brief": "A highways contract was awarded without the usual tender notice. Establish the timeline and the sign-off."
+    }
+  ]
+}

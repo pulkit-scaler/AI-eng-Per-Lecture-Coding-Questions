@@ -1,0 +1,145 @@
+{
+  "desk": "Caldon wire",
+  "stories": [
+    {
+      "id": "wf-3102",
+      "slug": "flood-barrier-holds",
+      "headline": "Flood barrier holds through second surge",
+      "region": "Wexmoor",
+      "source": "River Board",
+      "filed_minutes": 12,
+      "affected": 5400,
+      "body": "The barrier was raised at first light and stayed up through the second tide."
+    },
+    {
+      "id": "wf-3108",
+      "slug": "harbour-gate-fault",
+      "headline": "Harbour gate jammed by hydraulic fault",
+      "region": "Eastmarch",
+      "source": "Port Authority",
+      "filed_minutes": 26,
+      "affected": 2400,
+      "body": "Engineers are working on the seaward ram and expect a fix before the evening tide."
+    },
+    {
+      "id": "wf-3115",
+      "slug": "rail-signal-outage",
+      "headline": "Signal outage halts the coast line",
+      "region": "Northgate",
+      "source": "Rail Operator",
+      "filed_minutes": 7,
+      "affected": 18600,
+      "body": "Trains are held at both ends of the section while the interlocking is reset."
+    },
+    {
+      "id": "wf-3121",
+      "slug": "school-roof-survey",
+      "headline": "Survey orders three school roofs closed",
+      "region": "Wexmoor",
+      "source": "County Council",
+      "filed_minutes": 95,
+      "affected": 1200,
+      "body": "The survey covered eleven buildings and flagged three for immediate closure."
+    },
+    {
+      "id": "wf-3126",
+      "slug": "power-restored-mill",
+      "headline": "Power restored to the mill district",
+      "region": "Southfold",
+      "source": "Grid Operator",
+      "filed_minutes": 43,
+      "affected": 9800,
+      "body": "The last feeder was re-energised shortly after the morning peak."
+    },
+    {
+      "id": "wf-3133",
+      "slug": "ferry-service-suspended",
+      "headline": "Ferry service suspended in high wind",
+      "region": "Eastmarch",
+      "source": "Harbour Trust",
+      "filed_minutes": 19,
+      "affected": 3100,
+      "body": "Crossings are held until the gusts drop below the operating limit."
+    },
+    {
+      "id": "wf-3140",
+      "slug": "water-notice-lifted",
+      "headline": "Boil-water notice lifted for two wards",
+      "region": "Northgate",
+      "source": "Water Utility",
+      "filed_minutes": 61,
+      "affected": 7400,
+      "body": "Sampling came back clear on three consecutive rounds before the notice was lifted."
+    },
+    {
+      "id": "wf-3147",
+      "slug": "bridge-weight-limit",
+      "headline": "Weight limit imposed on the old bridge",
+      "region": "Wexmoor",
+      "source": "Highways Agency",
+      "filed_minutes": 34,
+      "affected": 800,
+      "body": "Heavy goods traffic is diverted through the valley road until the deck is assessed."
+    },
+    {
+      "id": "wf-3152",
+      "slug": "storm-shelter-opens",
+      "headline": "Storm shelter opens at the leisure centre",
+      "region": "Southfold",
+      "source": "Emergency Office",
+      "filed_minutes": 5,
+      "affected": 450,
+      "body": "Camp beds and hot food are in place for anyone moved off the low ground."
+    },
+    {
+      "id": "wf-3159",
+      "slug": "tunnel-reopens-early",
+      "headline": "Tunnel reopens ahead of schedule",
+      "region": "Northgate",
+      "source": "Highways Agency",
+      "filed_minutes": 78,
+      "affected": 12500,
+      "body": "Resurfacing finished a full shift early and both bores are back in use."
+    },
+    {
+      "id": "wf-3164",
+      "slug": "market-hall-evacuated",
+      "headline": "Market hall evacuated after gas alert",
+      "region": "Eastmarch",
+      "source": "Fire Service",
+      "filed_minutes": 3,
+      "affected": 1700,
+      "body": "Traders were moved to the square while the main is isolated and vented."
+    },
+    {
+      "id": "wf-3171",
+      "slug": "clinic-hours-extended",
+      "headline": "Clinic hours extended through the weekend",
+      "region": "Southfold",
+      "source": "Health Board",
+      "filed_minutes": 52,
+      "affected": 2600,
+      "body": "Extra sessions were added after the backlog from the closure week."
+    },
+    {
+      "id": "wf-3178",
+      "slug": "quarry-road-washout",
+      "headline": "Quarry road washed out below the ridge",
+      "region": "Wexmoor",
+      "source": "Highways Agency",
+      "filed_minutes": 22,
+      "affected": 340,
+      "body": "A culvert gave way overnight and took most of the eastbound lane with it."
+    },
+    {
+      "id": "wf-3185",
+      "slug": "broadband-cut-restored",
+      "headline": "Broadband restored after cable strike",
+      "region": "Northgate",
+      "source": "Network Operator",
+      "filed_minutes": 88,
+      "affected": 15200,
+      "body": "A splice team worked through the night on the cut beside the depot access."
+    }
+  ]
+}

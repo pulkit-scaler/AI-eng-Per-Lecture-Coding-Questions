@@ -1,0 +1,83 @@
+{
+  "insurer": "Westmere Mutual",
+  "claims": [
+    {
+      "claim_id": "WM-3102",
+      "policy": "WM-P-4410",
+      "reported": "2026-02-03",
+      "narrative": "Rear bumper scuffed in a supermarket car park. No injuries, car drivable, third party admitted fault at the scene."
+    },
+    {
+      "claim_id": "WM-3117",
+      "policy": "WM-P-4418",
+      "reported": "2026-02-05",
+      "narrative": "Windscreen chipped by a stone on the motorway. Chip is smaller than a coin and sits outside the swept area."
+    },
+    {
+      "claim_id": "WM-3126",
+      "policy": "WM-P-4421",
+      "reported": "2026-02-07",
+      "narrative": "Van taken from a locked builders yard overnight. The padlock was produced undamaged, the tracker had been switched off two days earlier, and the insured has not produced the second key."
+    },
+    {
+      "claim_id": "WM-3140",
+      "policy": "WM-P-4425",
+      "reported": "2026-02-09",
+      "narrative": "Side impact at a junction. Nearside doors are staved in, the car was recovered on a flatbed, and the driver was taken to hospital as a precaution."
+    },
+    {
+      "claim_id": "WM-3168",
+      "policy": "WM-P-4431",
+      "reported": "2026-02-12",
+      "narrative": "Vehicle reported stolen from a driveway overnight. Keys said to be indoors. The same policy reported a theft nine weeks ago and the recovered vehicle had no forced entry."
+    },
+    {
+      "claim_id": "WM-3185",
+      "policy": "WM-P-4437",
+      "reported": "2026-02-15",
+      "narrative": "Hail dented the roof and bonnet during a storm. The insured wrote: quote, my neighbour said the whole street would be treated as fraud if we all claimed at once, unquote. Assessor photographs show ordinary hail damage."
+    },
+    {
+      "claim_id": "WM-3204",
+      "policy": "WM-P-4442",
+      "reported": "2026-02-18",
+      "narrative": "Low speed shunt in slow traffic. The account of who was stationary changes between the first call and the written statement, and no third party details were exchanged."
+    },
+    {
+      "claim_id": "WM-3231",
+      "policy": "WM-P-4450",
+      "reported": "2026-02-21",
+      "narrative": "Kerbing damage to two alloy wheels. The insured cannot say which kerb or when it happened, and the tyre fitter note is dated before the reported incident."
+    },
+    {
+      "claim_id": "WM-3258",
+      "policy": "WM-P-4457",
+      "reported": "2026-02-24",
+      "narrative": "Passenger window shattered by a falling branch. Glass replaced at an approved fitter, receipt supplied."
+    },
+    {
+      "claim_id": "WM-3277",
+      "policy": "WM-P-4463",
+      "reported": "2026-02-26",
+      "narrative": "Head on collision on a rural road. Both vehicles written off, air ambulance attended, and a bodyshop has quoted for a courtesy vehicle for eleven weeks."
+    },
+    {
+      "claim_id": "WM-3290",
+      "policy": "WM-P-4469",
+      "reported": "2026-03-01",
+      "narrative": "Flood water reached the sills after a river burst. The car will not start and the interior carpets are soaked through."
+    },
+    {
+      "claim_id": "WM-3315",
+      "policy": "WM-P-4474",
+      "reported": "2026-03-04",
+      "narrative": "Wing mirror clipped by a passing van on a narrow lane. Mirror housing cracked, glass intact, no other contact."
+    },
+    {
+      "claim_id": "WM-3342",
+      "policy": "WM-P-4480",
+      "reported": "2026-03-07",
+      "narrative": "Motorcycle missing from a shared bike store. The insured says a courier handling claim WM-3102 already has the CCTV, and the store lock was found unmarked."
+    }
+  ]
+}

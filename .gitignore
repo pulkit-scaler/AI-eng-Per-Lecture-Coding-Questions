@@ -1,0 +1,25 @@
+# Lecture scripts / lecture source material — kept out of this repo on purpose
+modules/
+
+# Local servers and their vendored dependencies
+servers/
+
+# Local virtualenvs
+.venv-phi/
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# macOS
+.DS_Store

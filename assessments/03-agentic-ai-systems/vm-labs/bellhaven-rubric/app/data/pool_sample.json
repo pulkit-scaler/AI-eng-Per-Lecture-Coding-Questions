@@ -1,0 +1,164 @@
+{
+  "pool": [
+    {
+      "id": "sm-201",
+      "subject": "algebra",
+      "level": 2,
+      "problem": "What is 4x minus 1 when x equals 3?",
+      "gold_answer": "11",
+      "predicted_answer": "11",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "4*3-1",
+          "observation": "11"
+        },
+        {
+          "final_answer": "11"
+        }
+      ]
+    },
+    {
+      "id": "sm-202",
+      "subject": "algebra",
+      "level": 3,
+      "problem": "Write three eighths as a decimal.",
+      "gold_answer": "3/8",
+      "predicted_answer": "0.375",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "3/8",
+          "observation": "0.375"
+        },
+        {
+          "final_answer": "0.375"
+        }
+      ]
+    },
+    {
+      "id": "sm-203",
+      "subject": "geometry",
+      "level": 3,
+      "problem": "A circle has radius 2. What is its area in terms of pi?",
+      "gold_answer": "4\\pi",
+      "predicted_answer": "4*pi",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "pi*4",
+          "observation": "12.566"
+        },
+        {
+          "final_answer": "4*pi"
+        }
+      ]
+    },
+    {
+      "id": "sm-204",
+      "subject": "counting",
+      "level": 2,
+      "problem": "How many ways can three friends sit in a row?",
+      "gold_answer": "6",
+      "predicted_answer": "6",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "3*2*1",
+          "observation": "6"
+        },
+        {
+          "final_answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "sm-205",
+      "subject": "number_theory",
+      "level": 4,
+      "problem": "What is the greatest common divisor of 84 and 60?",
+      "gold_answer": "12",
+      "predicted_answer": "6",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "84,60",
+          "observation": "6"
+        },
+        {
+          "final_answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "sm-206",
+      "subject": "precalculus",
+      "level": 5,
+      "problem": "Evaluate the square root of eighty one.",
+      "gold_answer": "9",
+      "predicted_answer": "sqrt(81)",
+      "is_stress_test": true,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "81**0.5",
+          "observation": "9.0"
+        },
+        {
+          "final_answer": "sqrt(81)"
+        }
+      ]
+    },
+    {
+      "id": "sm-207",
+      "subject": "geometry",
+      "level": 4,
+      "problem": "A triangle has base 10 and height 6. What is its area?",
+      "gold_answer": "30",
+      "predicted_answer": "60",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "10*6",
+          "observation": "60"
+        },
+        {
+          "final_answer": "60"
+        }
+      ]
+    },
+    {
+      "id": "sm-208",
+      "subject": "number_theory",
+      "level": 2,
+      "problem": "What is the remainder when 45 is divided by 6?",
+      "gold_answer": "3",
+      "predicted_answer": "5",
+      "is_stress_test": false,
+      "trace": [
+        {
+          "thought": "I will work this through with the calculator.",
+          "action": "calculator",
+          "action_input": "45/6",
+          "observation": "7.5"
+        },
+        {
+          "final_answer": "5"
+        }
+      ]
+    }
+  ]
+}

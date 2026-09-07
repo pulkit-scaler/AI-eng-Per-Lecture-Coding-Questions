@@ -1,0 +1,48 @@
+{
+  "name": "plain-reply",
+  "nodes": [
+    {
+      "id": "ChatInput-1",
+      "type": "ChatInput",
+      "config": {}
+    },
+    {
+      "id": "Prompt-1",
+      "type": "Prompt",
+      "config": {
+        "template": "Answer briefly and plainly."
+      }
+    },
+    {
+      "id": "Model-1",
+      "type": "LanguageModel",
+      "config": {
+        "model": "norbury-8b",
+        "temperature": 0,
+        "api_key": "***"
+      }
+    },
+    {
+      "id": "ChatOutput-1",
+      "type": "ChatOutput",
+      "config": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "ChatInput-1",
+      "target": "Model-1",
+      "port": "input"
+    },
+    {
+      "source": "Prompt-1",
+      "target": "Model-1",
+      "port": "prompt"
+    },
+    {
+      "source": "Model-1",
+      "target": "ChatOutput-1",
+      "port": "output"
+    }
+  ]
+}

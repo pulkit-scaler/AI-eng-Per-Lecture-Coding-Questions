@@ -1,0 +1,13 @@
+FROM python:3.11-slim AS pack
+WORKDIR /srv
+COPY depot_llm.py matching.py /srv/
+RUN python -m compileall -b -q /srv && rm -f /srv/*.py
+
+FROM python:3.11-slim
+WORKDIR /srv
+COPY --from=pack /srv/ /srv/
+COPY parts.json /srv/parts.json
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 \
+    DEPOT_LLM_PORT=9000 DEPOT_CATALOG=/srv/parts.json
+EXPOSE 9000
+CMD ["python", "/srv/depot_llm.pyc"]
